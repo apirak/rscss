@@ -12,5 +12,5 @@ env:
   global:
   - GIT_NAME: Travis CI
   - GIT_EMAIL: nobody@nobody.org
-  - GITHUB_REPO: rstacruz/rscss
+  - GITHUB_REPO: apirak/rscss
   - GIT_SOURCE: _docpress
