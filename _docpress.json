@@ -52,9 +52,9 @@
                 "id": ""
               },
               {
-                "title": "Avoid tag selectors",
+                "title": "ระวังการใช้ tag selectors",
                 "depth": 2,
-                "id": "avoid-tag-selectors"
+                "id": "tag-selectors"
               }
             ]
           },
@@ -65,9 +65,9 @@
             "slug": "variants",
             "headings": [
               {
-                "title": "Naming variants",
+                "title": "การตั้งชื่อ variants",
                 "depth": 2,
-                "id": "naming-variants"
+                "id": "variants"
               },
               {
                 "title": "Element variants",
@@ -75,14 +75,14 @@
                 "id": "element-variants"
               },
               {
-                "title": "Dash prefixes",
+                "title": "ทำไมใช้ขีดกลางนำหน้า",
                 "depth": 2,
-                "id": "dash-prefixes"
+                "id": ""
               }
             ]
           },
           {
-            "title": "Component ที่ซ้อนกัน",
+            "title": "Components ที่ซ้อนกัน",
             "source": "docs/nested-components.md",
             "url": "nested-components.html",
             "slug": "nested-components",
@@ -93,9 +93,9 @@
                 "id": "variants"
               },
               {
-                "title": "Simplifying nested components",
+                "title": "การทำให้ components หลายชั้น ดูง่ายขึ้น",
                 "depth": 2,
-                "id": "simplifying-nested-components"
+                "id": "components"
               }
             ]
           },
@@ -106,19 +106,19 @@
             "slug": "layouts",
             "headings": [
               {
-                "title": "Avoid positioning properties",
+                "title": "ระวังการกำหนด properties",
                 "depth": 2,
-                "id": "avoid-positioning-properties"
+                "id": "properties"
               },
               {
-                "title": "Fixed dimensions",
+                "title": "การกำหนดขนาดตายตัว",
                 "depth": 2,
-                "id": "fixed-dimensions"
+                "id": ""
               },
               {
-                "title": "Define positioning in parents",
+                "title": "กำหนดตำแหน่งตาม component ด้านนอก",
                 "depth": 2,
-                "id": "define-positioning-in-parents"
+                "id": "component"
               }
             ]
           },
@@ -129,14 +129,14 @@
             "slug": "helpers",
             "headings": [
               {
-                "title": "Naming helpers",
+                "title": "การตั้งชื่อ helpers",
                 "depth": 2,
-                "id": "naming-helpers"
+                "id": "helpers"
               },
               {
-                "title": "Organizing helpers",
+                "title": "การจัดระเบียบ helpers",
                 "depth": 2,
-                "id": "organizing-helpers"
+                "id": "helpers"
               }
             ]
           }
@@ -273,9 +273,9 @@
           "id": ""
         },
         {
-          "title": "Avoid tag selectors",
+          "title": "ระวังการใช้ tag selectors",
           "depth": 2,
-          "id": "avoid-tag-selectors"
+          "id": "tag-selectors"
         }
       ]
     },
@@ -285,9 +285,9 @@
       "slug": "variants",
       "headings": [
         {
-          "title": "Naming variants",
+          "title": "การตั้งชื่อ variants",
           "depth": 2,
-          "id": "naming-variants"
+          "id": "variants"
         },
         {
           "title": "Element variants",
@@ -295,15 +295,15 @@
           "id": "element-variants"
         },
         {
-          "title": "Dash prefixes",
+          "title": "ทำไมใช้ขีดกลางนำหน้า",
           "depth": 2,
-          "id": "dash-prefixes"
+          "id": ""
         }
       ]
     },
     "nested-components.html": {
       "source": "docs/nested-components.md",
-      "title": "Component ที่ซ้อนกัน",
+      "title": "Components ที่ซ้อนกัน",
       "slug": "nested-components",
       "headings": [
         {
@@ -312,9 +312,9 @@
           "id": "variants"
         },
         {
-          "title": "Simplifying nested components",
+          "title": "การทำให้ components หลายชั้น ดูง่ายขึ้น",
           "depth": 2,
-          "id": "simplifying-nested-components"
+          "id": "components"
         }
       ]
     },
@@ -324,19 +324,19 @@
       "slug": "layouts",
       "headings": [
         {
-          "title": "Avoid positioning properties",
+          "title": "ระวังการกำหนด properties",
           "depth": 2,
-          "id": "avoid-positioning-properties"
+          "id": "properties"
         },
         {
-          "title": "Fixed dimensions",
+          "title": "การกำหนดขนาดตายตัว",
           "depth": 2,
-          "id": "fixed-dimensions"
+          "id": ""
         },
         {
-          "title": "Define positioning in parents",
+          "title": "กำหนดตำแหน่งตาม component ด้านนอก",
           "depth": 2,
-          "id": "define-positioning-in-parents"
+          "id": "component"
         }
       ]
     },
@@ -346,14 +346,14 @@
       "slug": "helpers",
       "headings": [
         {
-          "title": "Naming helpers",
+          "title": "การตั้งชื่อ helpers",
           "depth": 2,
-          "id": "naming-helpers"
+          "id": "helpers"
         },
         {
-          "title": "Organizing helpers",
+          "title": "การจัดระเบียบ helpers",
           "depth": 2,
-          "id": "organizing-helpers"
+          "id": "helpers"
         }
       ]
     },

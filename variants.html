@@ -8,9 +8,9 @@
     <title>Variants</title>
     <meta name="viewport" content="width=device-width">
     <script>
-      if (false || window.location.hostname.indexOf("rscss.io") === window.location.hostname.length - 8) {
+      if (false || window.location.hostname.indexOf("rscss.in.th") === window.location.hostname.length - 11) {
         (function(d,o,c,p,r,e,s){d['GoogleAnalyticsObject']=r;d[r]=d[r]||function(){(d[r].q=d[r].q||[]).push(arguments)},d[r].l=1*new Date();e=o.createElement(c),s=o.getElementsByTagName(c)[0];e.async=1;e.src=p;s.parentNode.insertBefore(e,s)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create',"UA-70062028-1",'auto')
+        ga('create',"UA-72998-18",'auto')
       }
     </script>
   </head>
@@ -19,16 +19,16 @@
       <div class="toggle menu-toggle js-menu-toggle"></div>
       <div class="body page-variants">
         <div class="header-nav">
-          <div class="right"><a href="https://github.com/rstacruz/rscss" data-title="rstacruz/rscss" class="iconlink">
+          <div class="right"><a href="https://github.com/apirak/rscss" data-title="apirak/rscss" class="iconlink">
               <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
           </div>
         </div>
         <div class="markdown-body"><h1 id="variants">Variants</h1>
-<p>Components may have variants. Elements may have variants, too.</p>
+<p>Component &#xE0A;&#xE37;&#xE48;&#xE2D;&#xE40;&#xE14;&#xE35;&#xE22;&#xE27;&#xE01;&#xE31;&#xE19;&#xE1A;&#xE32;&#xE07;&#xE17;&#xE35;&#xE01;&#xE47;&#xE44;&#xE21;&#xE48;&#xE2D;&#xE22;&#xE32;&#xE01;&#xE43;&#xE2B;&#xE49;&#xE40;&#xE2B;&#xE21;&#xE37;&#xE2D;&#xE19;&#xE01;&#xE31;&#xE19; Elements &#xE01;&#xE47;&#xE40;&#xE0A;&#xE48;&#xE19;&#xE01;&#xE31;&#xE19;</p>
 <p><img src="images/component-modifiers.png" alt=""></p>
 <br>
-<h2 id="naming-variants">Naming variants</h2>
-<p>Classnames for variants will be prefixed by a dash (<code>-</code>).</p>
+<h2 id="variants">&#xE01;&#xE32;&#xE23;&#xE15;&#xE31;&#xE49;&#xE07;&#xE0A;&#xE37;&#xE48;&#xE2D; variants</h2>
+<p>&#xE0A;&#xE37;&#xE48;&#xE2D; class &#xE02;&#xE2D;&#xE07; variants &#xE43;&#xE2B;&#xE49;&#xE02;&#xE36;&#xE49;&#xE19;&#xE15;&#xE49;&#xE19;&#xE14;&#xE49;&#xE27;&#xE22;&#xE02;&#xE35;&#xE14;&#xE01;&#xE25;&#xE32;&#xE07; (<code>-</code>).</p>
 <pre><code class="lang-scss"><span class="hljs-class">.like-button</span> {
   &amp;<span class="hljs-class">.-wide</span> { <span class="pl-c">/* ... */</span> }
   &amp;<span class="hljs-class">.-short</span> { <span class="pl-c">/* ... */</span> }
@@ -36,27 +36,27 @@
 }
 </code></pre>
 <h2 id="element-variants">Element variants</h2>
-<p>Elements may also have variants.</p>
+<p>Varants &#xE02;&#xE2D;&#xE07; element &#xE01;&#xE47;&#xE43;&#xE0A;&#xE49;&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A;&#xE40;&#xE14;&#xE35;&#xE22;&#xE27;&#xE01;&#xE31;&#xE19;</p>
 <pre><code class="lang-scss"><span class="hljs-class">.shopping-card</span> {
   &gt; <span class="hljs-class">.title</span> { <span class="pl-c">/* ... */</span> }
   &gt; <span class="hljs-class">.title</span><span class="hljs-class">.-small</span> { <span class="pl-c">/* ... */</span> }
 }
 </code></pre>
-<h2 id="dash-prefixes">Dash prefixes</h2>
-<p>Dashes are the preferred prefix for variants.</p>
+<h2 id="">&#xE17;&#xE33;&#xE44;&#xE21;&#xE43;&#xE0A;&#xE49;&#xE02;&#xE35;&#xE14;&#xE01;&#xE25;&#xE32;&#xE07;&#xE19;&#xE33;&#xE2B;&#xE19;&#xE49;&#xE32;</h2>
+<p>&#xE40;&#xE23;&#xE32;&#xE2D;&#xE22;&#xE32;&#xE01;&#xE43;&#xE2B;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE02;&#xE35;&#xE14;&#xE01;&#xE25;&#xE32;&#xE07;&#xE19;&#xE33;&#xE2B;&#xE19;&#xE49;&#xE32;&#xE2A;&#xE33;&#xE2B;&#xE23;&#xE31;&#xE1A; variants &#xE40;&#xE1E;&#xE23;&#xE32;&#xE30;</p>
 <ul>
-<li>It prevents ambiguity with elements.</li>
-<li>A CSS class can only start with a letter, <code>_</code> or <code>-</code>.</li>
-<li>Dashes are easier to type than underscores.</li>
-<li>It kind of resembles switches in UNIX commands (<code>gcc -O2 -Wall -emit-last</code>).</li>
+<li>&#xE21;&#xE31;&#xE19;&#xE0A;&#xE48;&#xE27;&#xE22;&#xE43;&#xE2B;&#xE49;&#xE40;&#xE23;&#xE32;&#xE44;&#xE21;&#xE48;&#xE2A;&#xE31;&#xE1A;&#xE2A;&#xE19;&#xE01;&#xE31;&#xE1A; elements</li>
+<li>class &#xE43;&#xE19; CSS &#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE19;&#xE33;&#xE2B;&#xE19;&#xE49;&#xE32;&#xE44;&#xE14;&#xE49;&#xE14;&#xE49;&#xE27;&#xE22;&#xE15;&#xE31;&#xE27;&#xE2D;&#xE31;&#xE01;&#xE29;&#xE23; <code>_</code> &#xE2B;&#xE23;&#xE37;&#xE2D; <code>-</code> &#xE40;&#xE17;&#xE48;&#xE32;&#xE19;&#xE31;&#xE49;&#xE19;</li>
+<li>&#xE02;&#xE35;&#xE14;&#xE01;&#xE25;&#xE32;&#xE07;&#xE1E;&#xE34;&#xE21;&#xE1E;&#xE4C;&#xE07;&#xE48;&#xE32;&#xE22;&#xE01;&#xE27;&#xE48;&#xE32;&#xE02;&#xE35;&#xE14;&#xE25;&#xE48;&#xE32;&#xE07;</li>
+<li>&#xE21;&#xE31;&#xE19;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A;&#xE40;&#xE14;&#xE35;&#xE22;&#xE27;&#xE01;&#xE31;&#xE1A; switches &#xE43;&#xE19; UNIX command line (<code>gcc -O2 -Wall -emit-last</code>)</li>
 </ul>
-<p class="pull-box">How do you deal with complex elements? Nest them.
-<a href="nested-components.html">Continue &#x2192;</a></p>
+<p class="pull-box">&#xE40;&#xE23;&#xE32;&#xE08;&#xE30;&#xE08;&#xE31;&#xE14;&#xE01;&#xE32;&#xE23; element &#xE17;&#xE35;&#xE48;&#xE0B;&#xE31;&#xE1A;&#xE0B;&#xE49;&#xE2D;&#xE19;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;&#xE44;&#xE23;? &#xE08;&#xE31;&#xE1A;&#xE21;&#xE31;&#xE19;&#xE0B;&#xE49;&#xE2D;&#xE19;&#xE01;&#xE31;&#xE19;
+<a href="nested-components.html">&#xE14;&#xE39;&#xE15;&#xE48;&#xE2D; &#x2192;</a></p>
 
         </div>
         <div class="footer-nav">
           <div class="left"><a href="elements.html"><span class="title">Elements</span></a></div>
-          <div class="right"><a href="nested-components.html"><span class="label">Next: </span><span class="title">Component ที่ซ้อนกัน</span></a></div>
+          <div class="right"><a href="nested-components.html"><span class="label">Next: </span><span class="title">Components ที่ซ้อนกัน</span></a></div>
         </div>
       </div>
       <div class="menu toc-menu">
@@ -72,15 +72,15 @@
                 </li>
                 <li class="menu-item -level-2"><a href="variants.html" class="link title -active link-variants">Variants</a>
                   <ul class="headings heading-list">
-                    <li class="heading-item -depth-2"><a href="#naming-variants" class="hlink link-naming-variants">Naming variants</a>
+                    <li class="heading-item -depth-2"><a href="#variants" class="hlink link-variants">การตั้งชื่อ variants</a>
                     </li>
                     <li class="heading-item -depth-2"><a href="#element-variants" class="hlink link-element-variants">Element variants</a>
                     </li>
-                    <li class="heading-item -depth-2"><a href="#dash-prefixes" class="hlink link-dash-prefixes">Dash prefixes</a>
+                    <li class="heading-item -depth-2"><a href="#" class="hlink link-">ทำไมใช้ขีดกลางนำหน้า</a>
                     </li>
                   </ul>
                 </li>
-                <li class="menu-item -level-2"><a href="nested-components.html" class="link title  link-nested-components">Component ที่ซ้อนกัน</a>
+                <li class="menu-item -level-2"><a href="nested-components.html" class="link title  link-nested-components">Components ที่ซ้อนกัน</a>
                 </li>
                 <li class="menu-item -level-2"><a href="layouts.html" class="link title  link-layouts">Layouts</a>
                 </li>

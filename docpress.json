@@ -1,5 +1,5 @@
 {
-  "github": "rstacruz/rscss",
+  "github": "apirak/rscss",
   "css": [
     "http://ricostacruz.com/docpress-rsc/style.css"
   ],
@@ -9,7 +9,7 @@
     }
   },
   "googleAnalytics": {
-    "id": "UA-70062028-1",
-    "domain": "rscss.io"
+    "id": "UA-72998-18",
+    "domain": "rscss.in.th"
   }
 }

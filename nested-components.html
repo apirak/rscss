@@ -5,12 +5,12 @@
     <link rel="stylesheet" href="assets/style.css?t=a44c9e9d">
     <link rel="stylesheet" href="http://ricostacruz.com/docpress-rsc/style.css">
     <script src="assets/script.js?t=2bcc4b59"></script>
-    <title>Component ที่ซ้อนกัน</title>
+    <title>Components ที่ซ้อนกัน</title>
     <meta name="viewport" content="width=device-width">
     <script>
-      if (false || window.location.hostname.indexOf("rscss.io") === window.location.hostname.length - 8) {
+      if (false || window.location.hostname.indexOf("rscss.in.th") === window.location.hostname.length - 11) {
         (function(d,o,c,p,r,e,s){d['GoogleAnalyticsObject']=r;d[r]=d[r]||function(){(d[r].q=d[r].q||[]).push(arguments)},d[r].l=1*new Date();e=o.createElement(c),s=o.getElementsByTagName(c)[0];e.async=1;e.src=p;s.parentNode.insertBefore(e,s)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create',"UA-70062028-1",'auto')
+        ga('create',"UA-72998-18",'auto')
       }
     </script>
   </head>
@@ -19,11 +19,11 @@
       <div class="toggle menu-toggle js-menu-toggle"></div>
       <div class="body page-nested-components">
         <div class="header-nav">
-          <div class="right"><a href="https://github.com/rstacruz/rscss" data-title="rstacruz/rscss" class="iconlink">
+          <div class="right"><a href="https://github.com/apirak/rscss" data-title="apirak/rscss" class="iconlink">
               <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
           </div>
         </div>
-        <div class="markdown-body"><h1 id="nested-components">Nested components</h1>
+        <div class="markdown-body"><h1 id="components">components &#xE17;&#xE35;&#xE48;&#xE0B;&#xE49;&#xE2D;&#xE19;&#xE01;&#xE31;&#xE19;</h1>
 <p><img src="images/component-nesting.png" alt=""></p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;article-link&apos;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;vote-box&apos;</span>&gt;</span>
@@ -33,14 +33,14 @@
   <span class="hljs-tag">&lt;<span class="pl-ent">p</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;meta&apos;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="pl-ent">p</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="pl-ent">div</span>&gt;</span>
 </code></pre>
-<p>Sometimes it&apos;s necessary to nest components. Here are some guidelines for doing that.</p>
+<p>&#xE1A;&#xE32;&#xE07;&#xE17;&#xE35;&#xE21;&#xE31;&#xE19;&#xE08;&#xE33;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE43;&#xE2B;&#xE49; components &#xE01;&#xE31;&#xE19; &#xE21;&#xE32;&#xE25;&#xE2D;&#xE07;&#xE14;&#xE39;&#xE41;&#xE19;&#xE27;&#xE17;&#xE32;&#xE07;&#xE01;&#xE32;&#xE23;&#xE40;&#xE02;&#xE35;&#xE22;&#xE19;</p>
 <h2 id="variants">Variants</h2>
-<p>A component may need to appear a certain way when nested in another component. Avoid modifying the nested component by reaching into it from the containing component.</p>
+<p>&#xE41;&#xE15;&#xE48;&#xE25;&#xE30; component &#xE2D;&#xE32;&#xE08;&#xE08;&#xE30;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE41;&#xE2A;&#xE14;&#xE07;&#xE1C;&#xE25;&#xE15;&#xE48;&#xE32;&#xE07;&#xE2D;&#xE2D;&#xE01;&#xE44;&#xE1B;&#xE40;&#xE21;&#xE37;&#xE2D;&#xE19;&#xE21;&#xE31;&#xE19;&#xE44;&#xE1B;&#xE2D;&#xE22;&#xE39;&#xE48;&#xE43;&#xE19; component &#xE2D;&#xE37;&#xE48;&#xE19; &#xE43;&#xE2B;&#xE49;&#xE23;&#xE30;&#xE27;&#xE31;&#xE07;&#xE01;&#xE32;&#xE23;&#xE41;&#xE01;&#xE49;&#xE44;&#xE02; component &#xE19;&#xE31;&#xE49;&#xE19;&#xE42;&#xE14;&#xE22;&#xE01;&#xE32;&#xE23;&#xE2D;&#xE49;&#xE32;&#xE07;&#xE2D;&#xE34;&#xE07;&#xE1C;&#xE48;&#xE32;&#xE19; component &#xE17;&#xE35;&#xE48;&#xE2D;&#xE22;&#xE39;&#xE48;&#xE14;&#xE49;&#xE32;&#xE19;&#xE19;&#xE2D;&#xE01;</p>
 <pre><code class="lang-scss"><span class="hljs-class">.article-header</span> {
-  &gt; <span class="hljs-class">.vote-box</span> &gt; <span class="hljs-class">.up</span> { <span class="pl-c">/* &#x2717; avoid this */</span> }
+  &gt; <span class="hljs-class">.vote-box</span> &gt; <span class="hljs-class">.up</span> { <span class="pl-c">/* &#x2717; &#xE23;&#xE30;&#xE27;&#xE31;&#xE07;&#xE41;&#xE1A;&#xE1A;&#xE19;&#xE35;&#xE49; */</span> }
 }
 </code></pre>
-<p>Instead, prefer to add a variant to the nested component and apply it from the containing component.</p>
+<p>&#xE41;&#xE17;&#xE19;&#xE17;&#xE35;&#xE48;&#xE08;&#xE30;&#xE17;&#xE33;&#xE41;&#xE1A;&#xE1A;&#xE19;&#xE31;&#xE49;&#xE19; &#xE43;&#xE2B;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE27;&#xE34;&#xE18;&#xE35;&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21; variant &#xE40;&#xE02;&#xE49;&#xE32;&#xE44;&#xE1B; &#xE41;&#xE25;&#xE49;&#xE27;&#xE43;&#xE0A;&#xE49;&#xE21;&#xE31;&#xE19;&#xE17;&#xE35;&#xE48; component &#xE14;&#xE49;&#xE32;&#xE19;&#xE43;&#xE19;</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;article-header&apos;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;vote-box -highlight&apos;</span>&gt;</span>
     ...
@@ -52,14 +52,14 @@
   &amp;<span class="hljs-class">.-highlight</span> &gt; <span class="hljs-class">.up</span> { <span class="pl-c">/* ... */</span> }
 }
 </code></pre>
-<h2 id="simplifying-nested-components">Simplifying nested components</h2>
-<p>Sometimes, when nesting components, your markup can get dirty:</p>
+<h2 id="components">&#xE01;&#xE32;&#xE23;&#xE17;&#xE33;&#xE43;&#xE2B;&#xE49; components &#xE2B;&#xE25;&#xE32;&#xE22;&#xE0A;&#xE31;&#xE49;&#xE19; &#xE14;&#xE39;&#xE07;&#xE48;&#xE32;&#xE22;&#xE02;&#xE36;&#xE49;&#xE19;</h2>
+<p>&#xE1A;&#xE32;&#xE07;&#xE04;&#xE23;&#xE31;&#xE49;&#xE07; &#xE01;&#xE32;&#xE23;&#xE0B;&#xE49;&#xE2D;&#xE19; components &#xE08;&#xE30;&#xE17;&#xE33;&#xE43;&#xE2B;&#xE49; HTML &#xE14;&#xE39;&#xE23;&#xE01;</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;search-form&apos;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="pl-ent">input</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;input&apos;</span> <span class="pl-e">type</span>=<span class="pl-s">&apos;text&apos;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="pl-ent">button</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;search-button -red -large&apos;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="pl-ent">button</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="pl-ent">div</span>&gt;</span>
 </code></pre>
-<p>You can simplify this by using your CSS preprocessor&apos;s <code>@extend</code> mechanism:</p>
+<p>&#xE40;&#xE23;&#xE32;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE17;&#xE33;&#xE43;&#xE2B;&#xE49;&#xE21;&#xE31;&#xE19;&#xE2D;&#xE48;&#xE32;&#xE19;&#xE07;&#xE48;&#xE32;&#xE22;&#xE02;&#xE36;&#xE49;&#xE19;&#xE44;&#xE14;&#xE49;&#xE14;&#xE49;&#xE27;&#xE22;&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE40;&#xE17;&#xE04;&#xE19;&#xE34;&#xE04; <code>@extend</code> &#xE43;&#xE19; CSS preprocessor &#xE02;&#xE2D;&#xE07;&#xE40;&#xE23;&#xE32;</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;search-form&apos;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="pl-ent">input</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;input&apos;</span> <span class="pl-e">type</span>=<span class="pl-s">&apos;text&apos;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="pl-ent">button</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;submit&apos;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="pl-ent">button</span>&gt;</span>
@@ -73,8 +73,9 @@
   }
 }
 </code></pre>
-<p class="pull-box">What about repeating elements like lists? Learn about Layouts.
-<a href="layouts.html">Continue &#x2192;</a></p>
+<p>What about repeating elements like lists? Learn about Layouts.
+&#xE41;&#xE25;&#xE49;&#xE27; element &#xE17;&#xE35;&#xE48;&#xE0B;&#xE49;&#xE33;&#xE01;&#xE31;&#xE19;&#xE40;&#xE22;&#xE2D;&#xE30; &#xE46; &#xE40;&#xE0A;&#xE48;&#xE19;&#xE01;&#xE32;&#xE23;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE23;&#xE32;&#xE22;&#xE01;&#xE32;&#xE23;&#xE25;&#xE30;? &#xE25;&#xE2D;&#xE07;&#xE28;&#xE36;&#xE01;&#xE29;&#xE32;&#xE01;&#xE32;&#xE23;&#xE40;&#xE02;&#xE35;&#xE22;&#xE19; Layouts</p>
+<p class="pull-box"><a href="layouts.html">&#xE14;&#xE39;&#xE15;&#xE48;&#xE2D; &#x2192;</a></p>
 
         </div>
         <div class="footer-nav">
@@ -95,11 +96,11 @@
                 </li>
                 <li class="menu-item -level-2"><a href="variants.html" class="link title  link-variants">Variants</a>
                 </li>
-                <li class="menu-item -level-2"><a href="nested-components.html" class="link title -active link-nested-components">Component ที่ซ้อนกัน</a>
+                <li class="menu-item -level-2"><a href="nested-components.html" class="link title -active link-nested-components">Components ที่ซ้อนกัน</a>
                   <ul class="headings heading-list">
                     <li class="heading-item -depth-2"><a href="#variants" class="hlink link-variants">Variants</a>
                     </li>
-                    <li class="heading-item -depth-2"><a href="#simplifying-nested-components" class="hlink link-simplifying-nested-components">Simplifying nested components</a>
+                    <li class="heading-item -depth-2"><a href="#components" class="hlink link-components">การทำให้ components หลายชั้น ดูง่ายขึ้น</a>
                     </li>
                   </ul>
                 </li>
