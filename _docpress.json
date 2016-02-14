@@ -8,9 +8,9 @@
         "slug": "index",
         "headings": [
           {
-            "title": "Introduction",
+            "title": "บทนำ",
             "depth": 2,
-            "id": "introduction"
+            "id": ""
           }
         ]
       },
@@ -18,15 +18,15 @@
         "title": "Components",
         "sections": [
           {
-            "title": "About components",
+            "title": "เกี่ยวกับ Component",
             "source": "docs/components.md",
             "url": "components.html",
             "slug": "components",
             "headings": [
               {
-                "title": "Naming components",
+                "title": "การตั้งชื่อ components",
                 "depth": 2,
-                "id": "naming-components"
+                "id": "components"
               }
             ]
           },
@@ -37,9 +37,9 @@
             "slug": "elements",
             "headings": [
               {
-                "title": "Naming elements",
+                "title": "การตั้งชื่อ elements",
                 "depth": 2,
-                "id": "naming-elements"
+                "id": "elements"
               },
               {
                 "title": "Element selectors",
@@ -47,9 +47,9 @@
                 "id": "element-selectors"
               },
               {
-                "title": "On multiple words",
+                "title": "ถ้าต้องใช้หลายคำ",
                 "depth": 2,
-                "id": "on-multiple-words"
+                "id": ""
               },
               {
                 "title": "Avoid tag selectors",
@@ -82,7 +82,7 @@
             ]
           },
           {
-            "title": "Nested components",
+            "title": "Component ที่ซ้อนกัน",
             "source": "docs/nested-components.md",
             "url": "nested-components.html",
             "slug": "nested-components",
@@ -143,10 +143,10 @@
         ]
       },
       {
-        "title": "Structure",
+        "title": "โครงสร้าง",
         "sections": [
           {
-            "title": "CSS Structure",
+            "title": "โครงสร้าง CSS",
             "source": "docs/css-structure.md",
             "url": "css-structure.html",
             "slug": "css-structure",
@@ -174,7 +174,7 @@
         "title": "Notes",
         "sections": [
           {
-            "title": "Pitfalls",
+            "title": "หลุมพราง",
             "source": "docs/pitfalls.md",
             "url": "pitfalls.html",
             "slug": "pitfalls",
@@ -234,21 +234,21 @@
       "slug": "index",
       "headings": [
         {
-          "title": "Introduction",
+          "title": "บทนำ",
           "depth": 2,
-          "id": "introduction"
+          "id": ""
         }
       ]
     },
     "components.html": {
       "source": "docs/components.md",
-      "title": "About components",
+      "title": "เกี่ยวกับ Component",
       "slug": "components",
       "headings": [
         {
-          "title": "Naming components",
+          "title": "การตั้งชื่อ components",
           "depth": 2,
-          "id": "naming-components"
+          "id": "components"
         }
       ]
     },
@@ -258,9 +258,9 @@
       "slug": "elements",
       "headings": [
         {
-          "title": "Naming elements",
+          "title": "การตั้งชื่อ elements",
           "depth": 2,
-          "id": "naming-elements"
+          "id": "elements"
         },
         {
           "title": "Element selectors",
@@ -268,9 +268,9 @@
           "id": "element-selectors"
         },
         {
-          "title": "On multiple words",
+          "title": "ถ้าต้องใช้หลายคำ",
           "depth": 2,
-          "id": "on-multiple-words"
+          "id": ""
         },
         {
           "title": "Avoid tag selectors",
@@ -303,7 +303,7 @@
     },
     "nested-components.html": {
       "source": "docs/nested-components.md",
-      "title": "Nested components",
+      "title": "Component ที่ซ้อนกัน",
       "slug": "nested-components",
       "headings": [
         {
@@ -359,7 +359,7 @@
     },
     "css-structure.html": {
       "source": "docs/css-structure.md",
-      "title": "CSS Structure",
+      "title": "โครงสร้าง CSS",
       "slug": "css-structure",
       "headings": [
         {
@@ -381,7 +381,7 @@
     },
     "pitfalls.html": {
       "source": "docs/pitfalls.md",
-      "title": "Pitfalls",
+      "title": "หลุมพราง",
       "slug": "pitfalls",
       "headings": [
         {

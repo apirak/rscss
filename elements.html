@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/style.css?t=34b91bfb">
+    <link rel="stylesheet" href="assets/style.css?t=a44c9e9d">
     <link rel="stylesheet" href="http://ricostacruz.com/docpress-rsc/style.css">
-    <script src="assets/script.js?t=4a85ba64"></script>
+    <script src="assets/script.js?t=2bcc4b59"></script>
     <title>Elements</title>
     <meta name="viewport" content="width=device-width">
     <script>
@@ -24,24 +24,24 @@
           </div>
         </div>
         <div class="markdown-body"><h1 id="elements">Elements</h1>
-<p>Elements are things inside your component.</p>
+<p>Elements &#xE04;&#xE37;&#xE2D;&#xE02;&#xE2D;&#xE07;&#xE17;&#xE35;&#xE48;&#xE2D;&#xE22;&#xE39;&#xE48;&#xE02;&#xE49;&#xE32;&#xE07;&#xE43;&#xE19; component</p>
 <p><img src="images/component-elements.png" alt=""></p>
-<h2 id="naming-elements">Naming elements</h2>
-<p>Each component may have elements. They should have classes that are only <strong>one word</strong>.</p>
+<h2 id="elements">&#xE01;&#xE32;&#xE23;&#xE15;&#xE31;&#xE49;&#xE07;&#xE0A;&#xE37;&#xE48;&#xE2D; elements</h2>
+<p>Element &#xE44;&#xE2B;&#xE19;&#xE17;&#xE35;&#xE48;&#xE2D;&#xE22;&#xE39;&#xE48;&#xE20;&#xE32;&#xE22;&#xE43;&#xE15;&#xE49; component &#xE0A;&#xE37;&#xE48;&#xE2D;&#xE02;&#xE2D;&#xE07; class &#xE04;&#xE27;&#xE23;&#xE21;&#xE35;&#xE40;&#xE1E;&#xE35;&#xE22;&#xE07; <strong>&#xE2B;&#xE19;&#xE36;&#xE48;&#xE07;&#xE04;&#xE33;</strong></p>
 <pre><code class="lang-scss"><span class="hljs-class">.search-form</span> {
   &gt; <span class="hljs-class">.field</span> { <span class="pl-c">/* ... */</span> }
   &gt; <span class="hljs-class">.action</span> { <span class="pl-c">/* ... */</span> }
 }
 </code></pre>
 <h2 id="element-selectors">Element selectors</h2>
-<p>Prefer to use the <code>&gt;</code> child selector whenever possible. This prevents bleeding through nested components, and performs better than descendant selectors.</p>
+<p>&#xE16;&#xE49;&#xE32;&#xE17;&#xE33;&#xE44;&#xE14;&#xE49;&#xE43;&#xE2B;&#xE49;&#xE43;&#xE0A;&#xE49; <code>&gt;</code> &#xE2A;&#xE33;&#xE2B;&#xE23;&#xE31;&#xE1A; child selector (element &#xE17;&#xE35;&#xE48;&#xE25;&#xE36;&#xE01;&#xE25;&#xE07;&#xE44;&#xE1B;&#xE41;&#xE04;&#xE48;&#xE0A;&#xE31;&#xE49;&#xE19;&#xE40;&#xE14;&#xE35;&#xE22;&#xE27;) &#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE1B;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE31;&#xE19;&#xE44;&#xE21;&#xE48;&#xE43;&#xE2B;&#xE49;&#xE21;&#xE31;&#xE19;&#xE44;&#xE1B;&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; component &#xE25;&#xE36;&#xE01; &#xE46; &#xE41;&#xE25;&#xE30;&#xE0A;&#xE48;&#xE27;&#xE22;&#xE43;&#xE2B;&#xE49;&#xE44;&#xE14;&#xE49;&#xE1B;&#xE23;&#xE30;&#xE2A;&#xE34;&#xE17;&#xE18;&#xE34;&#xE20;&#xE32;&#xE1E;&#xE14;&#xE35;&#xE01;&#xE27;&#xE48;&#xE32;&#xE14;&#xE49;&#xE27;&#xE22;</p>
 <pre><code class="lang-scss"><span class="hljs-class">.article-card</span> {
   <span class="hljs-class">.title</span>     { <span class="pl-c">/* okay */</span> }
   &gt; <span class="hljs-class">.author</span>  { <span class="pl-c">/* &#x2713; better */</span> }
 }
 </code></pre>
-<h2 id="on-multiple-words">On multiple words</h2>
-<p>For those that need two or more words, concatenate them without dashes or underscores.</p>
+<h2 id="">&#xE16;&#xE49;&#xE32;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE43;&#xE0A;&#xE49;&#xE2B;&#xE25;&#xE32;&#xE22;&#xE04;&#xE33;</h2>
+<p>&#xE2A;&#xE33;&#xE2B;&#xE23;&#xE31;&#xE1A;&#xE0A;&#xE37;&#xE48;&#xE2D; class &#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE22;&#xE32;&#xE27;&#xE2A;&#xE2D;&#xE07;&#xE04;&#xE33;&#xE2B;&#xE23;&#xE37;&#xE2D;&#xE21;&#xE32;&#xE01;&#xE01;&#xE27;&#xE48;&#xE32; &#xE43;&#xE2B;&#xE49;&#xE40;&#xE2D;&#xE32;&#xE04;&#xE33;&#xE21;&#xE32;&#xE15;&#xE48;&#xE2D;&#xE01;&#xE31;&#xE19;&#xE40;&#xE25;&#xE22; &#xE42;&#xE14;&#xE22;&#xE44;&#xE21;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE21;&#xE35;&#xE40;&#xE2A;&#xE49;&#xE19;&#xE01;&#xE25;&#xE32;&#xE07;&#xE2B;&#xE23;&#xE37;&#xE2D;&#xE40;&#xE2A;&#xE49;&#xE19;&#xE43;&#xE15;&#xE49;</p>
 <pre><code class="lang-scss"><span class="hljs-class">.profile-box</span> {
   &gt; <span class="hljs-class">.firstname</span> { <span class="pl-c">/* ... */</span> }
   &gt; <span class="hljs-class">.lastname</span> { <span class="pl-c">/* ... */</span> }
@@ -60,7 +60,7 @@
 
         </div>
         <div class="footer-nav">
-          <div class="left"><a href="components.html"><span class="title">About components</span></a></div>
+          <div class="left"><a href="components.html"><span class="title">เกี่ยวกับ Component</span></a></div>
           <div class="right"><a href="variants.html"><span class="label">Next: </span><span class="title">Variants</span></a></div>
         </div>
       </div>
@@ -71,15 +71,15 @@
             </li>
             <li class="menu-item -level-1 -parent"><span class="title">Components</span>
               <ul class="submenu">
-                <li class="menu-item -level-2"><a href="components.html" class="link title  link-components">About components</a>
+                <li class="menu-item -level-2"><a href="components.html" class="link title  link-components">เกี่ยวกับ Component</a>
                 </li>
                 <li class="menu-item -level-2"><a href="elements.html" class="link title -active link-elements">Elements</a>
                   <ul class="headings heading-list">
-                    <li class="heading-item -depth-2"><a href="#naming-elements" class="hlink link-naming-elements">Naming elements</a>
+                    <li class="heading-item -depth-2"><a href="#elements" class="hlink link-elements">การตั้งชื่อ elements</a>
                     </li>
                     <li class="heading-item -depth-2"><a href="#element-selectors" class="hlink link-element-selectors">Element selectors</a>
                     </li>
-                    <li class="heading-item -depth-2"><a href="#on-multiple-words" class="hlink link-on-multiple-words">On multiple words</a>
+                    <li class="heading-item -depth-2"><a href="#" class="hlink link-">ถ้าต้องใช้หลายคำ</a>
                     </li>
                     <li class="heading-item -depth-2"><a href="#avoid-tag-selectors" class="hlink link-avoid-tag-selectors">Avoid tag selectors</a>
                     </li>
@@ -87,7 +87,7 @@
                 </li>
                 <li class="menu-item -level-2"><a href="variants.html" class="link title  link-variants">Variants</a>
                 </li>
-                <li class="menu-item -level-2"><a href="nested-components.html" class="link title  link-nested-components">Nested components</a>
+                <li class="menu-item -level-2"><a href="nested-components.html" class="link title  link-nested-components">Component ที่ซ้อนกัน</a>
                 </li>
                 <li class="menu-item -level-2"><a href="layouts.html" class="link title  link-layouts">Layouts</a>
                 </li>
@@ -95,15 +95,15 @@
                 </li>
               </ul>
             </li>
-            <li class="menu-item -level-1 -parent"><span class="title">Structure</span>
+            <li class="menu-item -level-1 -parent"><span class="title">โครงสร้าง</span>
               <ul class="submenu">
-                <li class="menu-item -level-2"><a href="css-structure.html" class="link title  link-css-structure">CSS Structure</a>
+                <li class="menu-item -level-2"><a href="css-structure.html" class="link title  link-css-structure">โครงสร้าง CSS</a>
                 </li>
               </ul>
             </li>
             <li class="menu-item -level-1 -parent"><span class="title">Notes</span>
               <ul class="submenu">
-                <li class="menu-item -level-2"><a href="pitfalls.html" class="link title  link-pitfalls">Pitfalls</a>
+                <li class="menu-item -level-2"><a href="pitfalls.html" class="link title  link-pitfalls">หลุมพราง</a>
                 </li>
                 <li class="menu-item -level-2"><a href="apprehensions.html" class="link title  link-apprehensions">Apprehensions</a>
                 </li>
