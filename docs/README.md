@@ -5,7 +5,7 @@
   - [เกี่ยวกับ Component](components.md)
   - [Elements](elements.md)
   - [Variants](variants.md)
-  - [Component ที่ซ้อนกัน](nested-components.md)
+  - [Components ที่ซ้อนกัน](nested-components.md)
   - [Layouts](layouts.md)
   - [Helpers](helpers.md)
 - **โครงสร้าง**

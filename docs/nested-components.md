@@ -1,4 +1,4 @@
-# Nested components
+# components ที่ซ้อนกัน
 
 ![](images/component-nesting.png)
 
@@ -12,18 +12,19 @@
 </div>
 ```
 
-Sometimes it's necessary to nest components. Here are some guidelines for doing that.
+บางทีมันจำเป็นที่ต้องให้ components กัน มาลองดูแนวทางการเขียน
 
 ## Variants
-A component may need to appear a certain way when nested in another component. Avoid modifying the nested component by reaching into it from the containing component.
+
+แต่ละ component อาจจะต้องแสดงผลต่างออกไปเมือนมันไปอยู่ใน component อื่น ให้ระวังการแก้ไข component นั้นโดยการอ้างอิงผ่าน component ที่อยู่ด้านนอก
 
 ```scss
 .article-header {
-  > .vote-box > .up { /* ✗ avoid this */ }
+  > .vote-box > .up { /* ✗ ระวังแบบนี้ */ }
 }
 ```
 
-  Instead, prefer to add a variant to the nested component and apply it from the containing component.
+แทนที่จะทำแบบนั้น ให้ใช้วิธีเพิ่ม variant เข้าไป แล้วใช้มันที่ component ด้านใน
 
 ```html
 <div class='article-header'>
@@ -40,8 +41,8 @@ A component may need to appear a certain way when nested in another component. A
 }
 ```
 
-## Simplifying nested components
-Sometimes, when nesting components, your markup can get dirty:
+## การทำให้ components หลายชั้น ดูง่ายขึ้น
+บางครั้ง การซ้อน components จะทำให้ HTML ดูรก
 
 ```html
 <div class='search-form'>
@@ -49,8 +50,7 @@ Sometimes, when nesting components, your markup can get dirty:
   <button class='search-button -red -large'></button>
 </div>
 ```
-
-You can simplify this by using your CSS preprocessor's `@extend` mechanism:
+เราสามารถทำให้มันอ่านง่ายขึ้นได้ด้วยการใช้เทคนิค `@extend` ใน CSS preprocessor ของเรา
 
 ```html
 <div class='search-form'>
@@ -70,5 +70,7 @@ You can simplify this by using your CSS preprocessor's `@extend` mechanism:
 ```
 
 What about repeating elements like lists? Learn about Layouts.
-[Continue →](layouts.md)
+แล้ว element ที่ซ้ำกันเยอะ ๆ เช่นการสร้างรายการละ? ลองศึกษาการเขียน Layouts
+
+[ดูต่อ →](layouts.md)
 <!-- {p:.pull-box} -->

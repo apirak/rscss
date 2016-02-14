@@ -1,13 +1,14 @@
 # Variants
 
-Components may have variants. Elements may have variants, too.
+Component ชื่อเดียวกันบางทีก็ไม่อยากให้เหมือนกัน Elements ก็เช่นกัน
 
 ![](images/component-modifiers.png)
 
 <br>
 
-## Naming variants
-Classnames for variants will be prefixed by a dash (`-`).
+## การตั้งชื่อ variants
+
+ชื่อ class ของ variants ให้ขึ้นต้นด้วยขีดกลาง (`-`).
 
   ```scss
   .like-button {
@@ -18,7 +19,7 @@ Classnames for variants will be prefixed by a dash (`-`).
   ```
 
 ## Element variants
-Elements may also have variants.
+Varants ของ element ก็ใช้รูปแบบเดียวกัน
 
   ```scss
   .shopping-card {
@@ -27,14 +28,14 @@ Elements may also have variants.
   }
   ```
 
-## Dash prefixes
-Dashes are the preferred prefix for variants.
+## ทำไมใช้ขีดกลางนำหน้า
+เราอยากให้ใช้ขีดกลางนำหน้าสำหรับ variants เพราะ
 
-  * It prevents ambiguity with elements.
-  * A CSS class can only start with a letter, `_` or `-`.
-  * Dashes are easier to type than underscores.
-  * It kind of resembles switches in UNIX commands (`gcc -O2 -Wall -emit-last`).
+  * มันช่วยให้เราไม่สับสนกับ elements
+  * class ใน CSS สามารถนำหน้าได้ด้วยตัวอักษร `_` หรือ `-` เท่านั้น
+  * ขีดกลางพิมพ์ง่ายกว่าขีดล่าง
+  * มันเป็นรูปแบบเดียวกับ switches ใน UNIX command line (`gcc -O2 -Wall -emit-last`)
 
-How do you deal with complex elements? Nest them.
+เราจะจัดการ element ที่ซับซ้อนอย่างไร? จับมันซ้อนกัน
 [ดูต่อ →](nested-components.md)
 <!-- {p:.pull-box} -->
