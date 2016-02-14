@@ -8,10 +8,10 @@
 
 <!-- {h1:.massive-header.-with-tagline} -->
 
-> จัด CSS อย่างไรไม่ให้เสียสติ
+> เขียน CSS อย่างไรไม่ให้เสียสติ
 
-ระบบการจัดการ CSS Stylesheet อย่างมีเหตุมีผล<br>
-เพื่อให้สามารถดูแล CSS ได้ในระยะยาว
+Reasonable System for CSS Stylesheet Structure คือ<br>
+แนวคิดง่าย ๆ เพื่อแนะแนวการสร้าง CSS ให้สามารถดูแลได้ในระยะยาว
 
 บทนำ
 ----
