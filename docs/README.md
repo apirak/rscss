@@ -2,16 +2,16 @@
 
 - [rscss](../README.md)
 - **Components**
-  - [About components](components.md)
+  - [เกี่ยวกับ Component](components.md)
   - [Elements](elements.md)
   - [Variants](variants.md)
-  - [Nested components](nested-components.md)
+  - [Component ที่ซ้อนกัน](nested-components.md)
   - [Layouts](layouts.md)
   - [Helpers](helpers.md)
-- **Structure**
-  - [CSS Structure](css-structure.md)
+- **โครงสร้าง**
+  - [โครงสร้าง CSS](css-structure.md)
 - **Notes**
-  - [Pitfalls](pitfalls.md)
+  - [หลุมพราง](pitfalls.md)
   - [Apprehensions](apprehensions.md)
   - [Other resources](other-resources.md)
 - [Summary](summary.md)

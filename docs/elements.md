@@ -1,11 +1,11 @@
 # Elements
 
-Elements are things inside your component.
+Elements คือของที่อยู่ข้างใน component
 
 ![](images/component-elements.png)
 
-## Naming elements
-Each component may have elements. They should have classes that are only **one word**.
+## การตั้งชื่อ elements
+Element ไหนที่อยู่ภายใต้ component ชื่อของ class ควรมีเพียง **หนึ่งคำ**
 
 ```scss
 .search-form {
@@ -15,7 +15,7 @@ Each component may have elements. They should have classes that are only **one w
 ```
 
 ## Element selectors
-Prefer to use the `>` child selector whenever possible. This prevents bleeding through nested components, and performs better than descendant selectors.
+ถ้าทำได้ให้ใช้ `>` สำหรับ child selector (element ที่ลึกลงไปแค่ชั้นเดียว) เพื่อป้องกันไม่ให้มันไปเลือก component ลึก ๆ และช่วยให้ได้ประสิทธิภาพดีกว่าด้วย
 
 ```scss
 .article-card {
@@ -24,8 +24,8 @@ Prefer to use the `>` child selector whenever possible. This prevents bleeding t
 }
 ```
 
-## On multiple words
-For those that need two or more words, concatenate them without dashes or underscores.
+## ถ้าต้องใช้หลายคำ
+สำหรับชื่อ class ที่ต้องยาวสองคำหรือมากกว่า ให้เอาคำมาต่อกันเลย โดยไม่ต้องมีเส้นกลางหรือเส้นใต้
 
 ```scss
 .profile-box {

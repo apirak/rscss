@@ -1,17 +1,17 @@
 Components
 ==========
 
-Think in components. Consider each piece of your UI as an individual "component".
+ลองดูใน components แล้วจิตนาการว่าแต่ละชิ่นของ UI เป็นอีกหนึ่ง component
 
 ![](images/component-example.png)
 
-## Naming components
-Components will be named with **at least two words**, separated by a dash. Examples of components:
+## การตั้งชื่อ components
+แต่ละ component จะตั้งชื่อโดยใช้ **อย่างน้อยสองคำ** แยกกันด้วยเส้นกลาง ตัวอย่างเช่น
 
   * A like button (`.like-button`)
   * A search form (`.search-form`)
   * A news article card (`.article-card`)
 
-How do you write a component exactly? Let's learn about Elements.
+แล้วต้องเขียนกันยังไง? มาลองดูการเขียน Elements
 [Continue →](elements.md)
 <!-- {p:.pull-box} -->

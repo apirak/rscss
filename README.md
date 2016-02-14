@@ -8,23 +8,25 @@
 
 <!-- {h1:.massive-header.-with-tagline} -->
 
-> Styling CSS without losing your sanity
+> จัด CSS อย่างไรไม่ให้เสียสติ
 
-Reasonable System for CSS Stylesheet Structure.<br>
-A set of simple ideas to guide your process of building maintainable CSS.
+ระบบการจัดการ CSS Stylesheet อย่างมีเหตุมีผล<br>
+เพื่อให้สามารถดูแล CSS ได้ในระยะยาว
 
-Introduction
-------------
+บทนำ
+----
 
-Any CSS greater than 1000 lines will get unwieldy. You'll eventually run into these common pitfalls:
+ไฟล์ CSS ใดก็ตามที่ใหญ่เกิน 1,000 บรรทัด มันจะเริ่มเทอะทะ ซึงมักจะตกหลุมพรางคลาย ๆ กัน
 
-* "What does this class mean?"
-* "Is this class still being used?"
-* "If I make a new class `green`, will there be a clash?"
+* "class นี้คืออะไรฟะ?"
+* "class นี้ยังใช้อยู่มั๊ยเนี่ย?"
+* "ถ้าทำให้ class นี้เป็น `สีเขียว`, มันจะไปกระทบตัวไหนบ้าง?"
 
 **rscss** is an attempt to make sense of all these. It is not a framework. It's simply a set of ideas to guide your process of building maintainable CSS for any modern website or application.
 
-Let's get started by learning about components.
+**rscss** พยายามจะแก้ปัญหาเหล่านี้ มันไม่ใช่ framework แต่เป็นแค่แนวทาง ที่นำเสนอรูปแบบการสร้าง CSS ที่สามารถดูแลได้ในระยะยาว สำหรับเว็บไซต์หรือโปรแกรมยุคใหม่
+
+มาเริ่มศึกษาจาก components
 [Continue →](docs/components.md)
 <!-- {p:.pull-box} -->
 
