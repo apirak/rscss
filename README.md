@@ -1,4 +1,6 @@
 ##### Viewing this from GitHub? Visit the website for the full experience. **[rscss.io →](http://rscss.io)**
+or **[rscss.in.th →](http://rscss.in.th) for Thai language**
+or **[github rscss thai →](http://apirak.github.io/rscss) for now**
 <!-- {h5: style='display:none'} -->
 
 ----
