@@ -36,5 +36,5 @@ Dashes are the preferred prefix for variants.
   * It kind of resembles switches in UNIX commands (`gcc -O2 -Wall -emit-last`).
 
 How do you deal with complex elements? Nest them.
-[Continue →](nested-components.md)
+[ดูต่อ →](nested-components.md)
 <!-- {p:.pull-box} -->

@@ -13,5 +13,5 @@ Components
   * A news article card (`.article-card`)
 
 แล้วต้องเขียนกันยังไง? มาลองดูการเขียน Elements
-[Continue →](elements.md)
+[ดูต่อ →](elements.md)
 <!-- {p:.pull-box} -->

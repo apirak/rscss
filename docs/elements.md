@@ -45,6 +45,6 @@ Use classnames whenever possible. Tag selectors are fine, but they may come at a
 }
 ```
 
-Not all elements should always look the same. Variants can help.
-[Continue →](variants.md)
+element เดียวกัน ก็ใช่ว่าจะหน้าตาเหมือนกันหมด ให้ใช้ Variants ช่วย
+[ดูต่อ →](variants.md)
 <!-- {p:.pull-box} -->
