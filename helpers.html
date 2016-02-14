@@ -24,19 +24,19 @@
           </div>
         </div>
         <div class="markdown-body"><h1 id="helpers">Helpers</h1>
-<p>For general-purpose classes meant to override values, put them in a separate file and name them beginning with an underscore. They are typically things that are tagged with <em>!important</em>. Use them <em>very</em> sparingly.</p>
+<p>&#xE42;&#xE14;&#xE22;&#xE17;&#xE31;&#xE48;&#xE27;&#xE44;&#xE1B; class &#xE40;&#xE2B;&#xE25;&#xE48;&#xE32;&#xE19;&#xE35;&#xE49;&#xE08;&#xE30;&#xE2B;&#xE21;&#xE32;&#xE22;&#xE16;&#xE36;&#xE07;&#xE01;&#xE32;&#xE23;&#xE41;&#xE17;&#xE19;&#xE17;&#xE35;&#xE48;&#xE04;&#xE48;&#xE32;&#xE1A;&#xE32;&#xE07;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07; &#xE43;&#xE2B;&#xE49;&#xE40;&#xE23;&#xE32;&#xE41;&#xE22;&#xE01;&#xE44;&#xE1F;&#xE25;&#xE4C;&#xE2D;&#xE2D;&#xE01;&#xE44;&#xE1B; &#xE41;&#xE25;&#xE31;&#xE27;&#xE15;&#xE31;&#xE49;&#xE07;&#xE0A;&#xE37;&#xE48;&#xE2D;&#xE19;&#xE33;&#xE2B;&#xE19;&#xE49;&#xE32;&#xE14;&#xE49;&#xE27;&#xE22;&#xE02;&#xE35;&#xE14;&#xE25;&#xE48;&#xE32;&#xE07; class &#xE1E;&#xE27;&#xE01;&#xE19;&#xE35;&#xE49;&#xE21;&#xE31;&#xE01;&#xE08;&#xE30;&#xE43;&#xE2A;&#xE48; <em>!important</em> &#xE44;&#xE27;&#xE49;&#xE14;&#xE49;&#xE27;&#xE22; &#xE43;&#xE2B;&#xE49;&#xE1E;&#xE22;&#xE32;&#xE22;&#xE32;&#xE21;&#xE43;&#xE0A;&#xE49;&#xE40;&#xE09;&#xE1E;&#xE32;&#xE30;&#xE17;&#xE35;&#xE48;&#xE08;&#xE33;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE08;&#xE23;&#xE34;&#xE07; &#xE46;</p>
 <pre><code class="lang-css"><span class="hljs-class">._unmargin</span> <span class="hljs-rules">{ <span class="hljs-rule"><span class="pl-e">margin</span>:<span class="pl-s"> <span class="hljs-number">0</span> <span class="hljs-important">!important</span></span></span>; }</span>
 <span class="hljs-class">._center</span> <span class="hljs-rules">{ <span class="hljs-rule"><span class="pl-e">text-align</span>:<span class="pl-s"> center <span class="hljs-important">!important</span></span></span>; }</span>
 <span class="hljs-class">._pull-left</span> <span class="hljs-rules">{ <span class="hljs-rule"><span class="pl-e">float</span>:<span class="pl-s"> left <span class="hljs-important">!important</span></span></span>; }</span>
 <span class="hljs-class">._pull-right</span> <span class="hljs-rules">{ <span class="hljs-rule"><span class="pl-e">float</span>:<span class="pl-s"> right <span class="hljs-important">!important</span></span></span>; }</span>
 </code></pre>
-<h2 id="naming-helpers">Naming helpers</h2>
-<p>Prefix classnames with an underscore. This will make it easy to differentiate them from modifiers defined in the component. Underscores also look a bit ugly which is an intentional side effect: using too many helpers should be discouraged.</p>
+<h2 id="helpers">&#xE01;&#xE32;&#xE23;&#xE15;&#xE31;&#xE49;&#xE07;&#xE0A;&#xE37;&#xE48;&#xE2D; helpers</h2>
+<p>&#xE43;&#xE2B;&#xE49;&#xE19;&#xE33;&#xE2B;&#xE19;&#xE49;&#xE32;&#xE0A;&#xE37;&#xE48;&#xE2D;&#xE14;&#xE49;&#xE27;&#xE22;&#xE02;&#xE35;&#xE14;&#xE25;&#xE48;&#xE32;&#xE07; &#xE08;&#xE30;&#xE0A;&#xE48;&#xE27;&#xE22;&#xE43;&#xE2B;&#xE49;&#xE40;&#xE23;&#xE32;&#xE21;&#xE2D;&#xE07;&#xE2D;&#xE2D;&#xE01;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;&#xE23;&#xE27;&#xE14;&#xE40;&#xE23;&#xE47;&#xE27;&#xE27;&#xE48;&#xE32;&#xE21;&#xE31;&#xE19;&#xE44;&#xE21;&#xE48;&#xE44;&#xE14;&#xE49;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE2A;&#xE48;&#xE27;&#xE19;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A;&#xE02;&#xE2D;&#xE07; component &#xE19;&#xE2D;&#xE01;&#xE08;&#xE32;&#xE01;&#xE19;&#xE31;&#xE49;&#xE19;&#xE02;&#xE35;&#xE14;&#xE25;&#xE48;&#xE32;&#xE07;&#xE22;&#xE31;&#xE07;&#xE14;&#xE39;&#xE44;&#xE21;&#xE48;&#xE2A;&#xE27;&#xE22;&#xE07;&#xE32;&#xE21; &#xE0A;&#xE48;&#xE27;&#xE22;&#xE43;&#xE2B;&#xE49;&#xE40;&#xE23;&#xE32;&#xE44;&#xE21;&#xE48;&#xE2D;&#xE22;&#xE32;&#xE01;&#xE43;&#xE0A;&#xE49;&#xE21;&#xE31;&#xE19;&#xE1A;&#xE48;&#xE2D;&#xE22; &#xE46;</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;order-graphs -slim _unmargin&apos;</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="pl-ent">div</span>&gt;</span>
 </code></pre>
-<h2 id="organizing-helpers">Organizing helpers</h2>
-<p>Place all helpers in one file called <code>helpers</code>. While you can separate them into multiple files, it&apos;s very preferrable to keep your number of helpers to a minimum.</p>
+<h2 id="helpers">&#xE01;&#xE32;&#xE23;&#xE08;&#xE31;&#xE14;&#xE23;&#xE30;&#xE40;&#xE1A;&#xE35;&#xE22;&#xE1A; helpers</h2>
+<p>&#xE23;&#xE27;&#xE1A;&#xE23;&#xE27;&#xE21; helpers &#xE44;&#xE27;&#xE49;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE44;&#xE1F;&#xE25;&#xE4C;&#xE40;&#xE14;&#xE35;&#xE22;&#xE27; &#xE15;&#xE31;&#xE49;&#xE07;&#xE0A;&#xE37;&#xE48;&#xE2D;&#xE27;&#xE48;&#xE32; <code>helpers</code> &#xE41;&#xE17;&#xE19;&#xE17;&#xE35;&#xE48;&#xE08;&#xE30;&#xE41;&#xE22;&#xE01;&#xE21;&#xE31;&#xE19;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE2B;&#xE25;&#xE32;&#xE22;&#xE44;&#xE1F;&#xE25;&#xE4C; &#xE08;&#xE30;&#xE0A;&#xE48;&#xE27;&#xE22;&#xE43;&#xE2B;&#xE49;&#xE40;&#xE23;&#xE32;&#xE23;&#xE31;&#xE01;&#xE29;&#xE32;&#xE08;&#xE33;&#xE19;&#xE27;&#xE19; helpers &#xE43;&#xE2B;&#xE49;&#xE21;&#xE35;&#xE2D;&#xE22;&#xE39;&#xE48;&#xE19;&#xE49;&#xE2D;&#xE22;&#xE17;&#xE35;&#xE48;&#xE2A;&#xE38;&#xE14; &#xE44;&#xE1B;&#xE43;&#xE19;&#xE15;&#xE31;&#xE27;</p>
 
         </div>
         <div class="footer-nav">
@@ -57,15 +57,15 @@
                 </li>
                 <li class="menu-item -level-2"><a href="variants.html" class="link title  link-variants">Variants</a>
                 </li>
-                <li class="menu-item -level-2"><a href="nested-components.html" class="link title  link-nested-components">Component ที่ซ้อนกัน</a>
+                <li class="menu-item -level-2"><a href="nested-components.html" class="link title  link-nested-components">Components ที่ซ้อนกัน</a>
                 </li>
                 <li class="menu-item -level-2"><a href="layouts.html" class="link title  link-layouts">Layouts</a>
                 </li>
                 <li class="menu-item -level-2"><a href="helpers.html" class="link title -active link-helpers">Helpers</a>
                   <ul class="headings heading-list">
-                    <li class="heading-item -depth-2"><a href="#naming-helpers" class="hlink link-naming-helpers">Naming helpers</a>
+                    <li class="heading-item -depth-2"><a href="#helpers" class="hlink link-helpers">การตั้งชื่อ helpers</a>
                     </li>
-                    <li class="heading-item -depth-2"><a href="#organizing-helpers" class="hlink link-organizing-helpers">Organizing helpers</a>
+                    <li class="heading-item -depth-2"><a href="#helpers" class="hlink link-helpers">การจัดระเบียบ helpers</a>
                     </li>
                   </ul>
                 </li>
