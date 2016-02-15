@@ -8,7 +8,7 @@
     <title>โครงสร้าง CSS</title>
     <meta name="viewport" content="width=device-width">
     <script>
-      if (false || window.location.hostname.indexOf("rscss.in.th") === window.location.hostname.length - 11) {
+      if (false || window.location.hostname.indexOf("rscss.io/th") === window.location.hostname.length - 11) {
         (function(d,o,c,p,r,e,s){d['GoogleAnalyticsObject']=r;d[r]=d[r]||function(){(d[r].q=d[r].q||[]).push(arguments)},d[r].l=1*new Date();e=o.createElement(c),s=o.getElementsByTagName(c)[0];e.async=1;e.src=p;s.parentNode.insertBefore(e,s)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
         ga('create',"UA-72998-18",'auto')
       }
@@ -23,9 +23,9 @@
               <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
           </div>
         </div>
-        <div class="markdown-body"><h1 id="css-structure">CSS structure</h1>
-<h2 id="one-component-per-file">One component per file</h2>
-<p>For each component, place them in their own file.</p>
+        <div class="markdown-body"><h1 id="css">&#xE42;&#xE04;&#xE23;&#xE07;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07; CSS</h1>
+<h2 id="component">&#xE2B;&#xE19;&#xE36;&#xE48;&#xE07; component &#xE15;&#xE48;&#xE2D;&#xE2B;&#xE19;&#xE36;&#xE48;&#xE07;&#xE44;&#xE1F;&#xE25;&#xE4C;</h2>
+<p>&#xE41;&#xE15;&#xE48;&#xE25;&#xE30; component &#xE43;&#xE2B;&#xE49;&#xE27;&#xE32;&#xE07;&#xE21;&#xE31;&#xE19;&#xE44;&#xE27;&#xE49;&#xE43;&#xE19;&#xE44;&#xE1F;&#xE25;&#xE4C;&#xE02;&#xE2D;&#xE07;&#xE15;&#xE31;&#xE27;&#xE40;&#xE2D;&#xE07;</p>
 <pre><code class="lang-scss"><span class="pl-c">/* css/components/search-form.scss */</span>
 <span class="hljs-class">.search-form</span> {
   &gt; <span class="hljs-class">.button</span> { <span class="pl-c">/* ... */</span> }
@@ -38,11 +38,12 @@
 }
 </code></pre>
 <h2 id="use-glob-matching">Use glob matching</h2>
-<p>In sass-rails and stylus, this makes including all of them easy:</p>
+<p>&#xE16;&#xE49;&#xE32;&#xE43;&#xE0A;&#xE49; sass-rails &#xE41;&#xE25;&#xE30; stylus &#xE08;&#xE30;&#xE17;&#xE33;&#xE43;&#xE2B;&#xE49;&#xE23;&#xE27;&#xE1A;&#xE23;&#xE27;&#xE21;&#xE44;&#xE1F;&#xE25;&#xE4C;&#xE17;&#xE31;&#xE49;&#xE07;&#xE2B;&#xE21;&#xE14;&#xE44;&#xE14;&#xE49;&#xE07;&#xE48;&#xE32;&#xE22;</p>
 <pre><code class="lang-scss"><span class="hljs-at_rule">@<span class="pl-k">import</span> <span class="pl-s">&apos;components/*&apos;</span>;</span>
 </code></pre>
 <h2 id="avoid-over-nesting">Avoid over-nesting</h2>
-<p>Use no more than 1 level of nesting. It&apos;s easy to get lost with too much nesting.</p>
+<h2 id="">&#xE23;&#xE30;&#xE27;&#xE31;&#xE07;&#xE01;&#xE32;&#xE23;&#xE0B;&#xE49;&#xE2D;&#xE19;&#xE01;&#xE31;&#xE19;&#xE21;&#xE32;&#xE01;&#xE44;&#xE1B;</h2>
+<p>&#xE44;&#xE21;&#xE48;&#xE04;&#xE27;&#xE23;&#xE43;&#xE2B;&#xE49;&#xE0B;&#xE48;&#xE2D;&#xE19;&#xE01;&#xE31;&#xE19;&#xE40;&#xE01;&#xE34;&#xE19; 1 &#xE0A;&#xE31;&#xE49;&#xE19; &#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE1B;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE31;&#xE19;&#xE01;&#xE32;&#xE23;&#xE0B;&#xE49;&#xE2D;&#xE19;&#xE01;&#xE31;&#xE19;&#xE21;&#xE32;&#xE01;&#xE40;&#xE01;&#xE34;&#xE19;&#xE44;&#xE1B;&#xE42;&#xE14;&#xE22;&#xE44;&#xE21;&#xE48;&#xE23;&#xE39;&#xE49;&#xE15;&#xE31;&#xE27;</p>
 <pre><code class="lang-scss"><span class="pl-c">/* &#x2717; Avoid: 3 levels of nesting */</span>
 <span class="hljs-class">.image-frame</span> {
   &gt; <span class="hljs-class">.description</span> {
@@ -92,11 +93,13 @@
               <ul class="submenu">
                 <li class="menu-item -level-2"><a href="css-structure.html" class="link title -active link-css-structure">โครงสร้าง CSS</a>
                   <ul class="headings heading-list">
-                    <li class="heading-item -depth-2"><a href="#one-component-per-file" class="hlink link-one-component-per-file">One component per file</a>
+                    <li class="heading-item -depth-2"><a href="#component" class="hlink link-component">หนึ่ง component ต่อหนึ่งไฟล์</a>
                     </li>
                     <li class="heading-item -depth-2"><a href="#use-glob-matching" class="hlink link-use-glob-matching">Use glob matching</a>
                     </li>
                     <li class="heading-item -depth-2"><a href="#avoid-over-nesting" class="hlink link-avoid-over-nesting">Avoid over-nesting</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#" class="hlink link-">ระวังการซ้อนกันมากไป</a>
                     </li>
                   </ul>
                 </li>
@@ -106,13 +109,13 @@
               <ul class="submenu">
                 <li class="menu-item -level-2"><a href="pitfalls.html" class="link title  link-pitfalls">หลุมพราง</a>
                 </li>
-                <li class="menu-item -level-2"><a href="apprehensions.html" class="link title  link-apprehensions">Apprehensions</a>
+                <li class="menu-item -level-2"><a href="apprehensions.html" class="link title  link-apprehensions">สิ่งที่ทำให้หวันไหว</a>
                 </li>
-                <li class="menu-item -level-2"><a href="other-resources.html" class="link title  link-other-resources">Other resources</a>
+                <li class="menu-item -level-2"><a href="other-resources.html" class="link title  link-other-resources">แหล่งค้นคว้าอื่น ๆ</a>
                 </li>
               </ul>
             </li>
-            <li class="menu-item -level-1"><a href="summary.html" class="link title  link-summary">Summary</a>
+            <li class="menu-item -level-1"><a href="summary.html" class="link title  link-summary">สรุป</a>
             </li>
           </ul>
         </li>

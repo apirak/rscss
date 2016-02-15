@@ -152,9 +152,9 @@
             "slug": "css-structure",
             "headings": [
               {
-                "title": "One component per file",
+                "title": "หนึ่ง component ต่อหนึ่งไฟล์",
                 "depth": 2,
-                "id": "one-component-per-file"
+                "id": "component"
               },
               {
                 "title": "Use glob matching",
@@ -165,6 +165,11 @@
                 "title": "Avoid over-nesting",
                 "depth": 2,
                 "id": "avoid-over-nesting"
+              },
+              {
+                "title": "ระวังการซ้อนกันมากไป",
+                "depth": 2,
+                "id": ""
               }
             ]
           }
@@ -187,21 +192,21 @@
             ]
           },
           {
-            "title": "Apprehensions",
+            "title": "สิ่งที่ทำให้หวันไหว",
             "source": "docs/apprehensions.md",
             "url": "apprehensions.html",
             "slug": "apprehensions"
           },
           {
-            "title": "Other resources",
+            "title": "แหล่งค้นคว้าอื่น ๆ",
             "source": "docs/other-resources.md",
             "url": "other-resources.html",
             "slug": "other-resources",
             "headings": [
               {
-                "title": "Other solutions",
+                "title": "แนวทางอื่น ๆ",
                 "depth": 2,
-                "id": "other-solutions",
+                "id": "",
                 "headings": [
                   {
                     "title": "BEM",
@@ -211,16 +216,16 @@
                 ]
               },
               {
-                "title": "Terminologies",
+                "title": "คำศํพท์ที่ใช้",
                 "depth": 2,
-                "id": "terminologies"
+                "id": ""
               }
             ]
           }
         ]
       },
       {
-        "title": "Summary",
+        "title": "สรุป",
         "source": "docs/summary.md",
         "url": "summary.html",
         "slug": "summary"
@@ -363,9 +368,9 @@
       "slug": "css-structure",
       "headings": [
         {
-          "title": "One component per file",
+          "title": "หนึ่ง component ต่อหนึ่งไฟล์",
           "depth": 2,
-          "id": "one-component-per-file"
+          "id": "component"
         },
         {
           "title": "Use glob matching",
@@ -376,6 +381,11 @@
           "title": "Avoid over-nesting",
           "depth": 2,
           "id": "avoid-over-nesting"
+        },
+        {
+          "title": "ระวังการซ้อนกันมากไป",
+          "depth": 2,
+          "id": ""
         }
       ]
     },
@@ -393,18 +403,18 @@
     },
     "apprehensions.html": {
       "source": "docs/apprehensions.md",
-      "title": "Apprehensions",
+      "title": "สิ่งที่ทำให้หวันไหว",
       "slug": "apprehensions"
     },
     "other-resources.html": {
       "source": "docs/other-resources.md",
-      "title": "Other resources",
+      "title": "แหล่งค้นคว้าอื่น ๆ",
       "slug": "other-resources",
       "headings": [
         {
-          "title": "Other solutions",
+          "title": "แนวทางอื่น ๆ",
           "depth": 2,
-          "id": "other-solutions",
+          "id": "",
           "headings": [
             {
               "title": "BEM",
@@ -414,15 +424,15 @@
           ]
         },
         {
-          "title": "Terminologies",
+          "title": "คำศํพท์ที่ใช้",
           "depth": 2,
-          "id": "terminologies"
+          "id": ""
         }
       ]
     },
     "summary.html": {
       "source": "docs/summary.md",
-      "title": "Summary",
+      "title": "สรุป",
       "slug": "summary"
     }
   },
