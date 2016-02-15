@@ -1,7 +1,7 @@
-# Summary
+# สรุป
 
-* Think in **components**, named with 2 words (`.screenshot-image`)
-* Components have **elements**, named with 1 word (`.blog-post > .title`)
-* Name **variants** with a dash prefix (`.shop-banner.-with-icon`)
-* Components can nest
-* Remember you can extend to make things simple
+* ในแต่ละ **components** ให้ตั้งชื่อด้วยสองคำ (`.screenshot-image`)
+* Components ที่มี **elements** ให้ตั้งชื่อด้วย 1 คำ (`.blog-post > .title`)
+* ตั้งชื่อ **variants** โดยใช้ขีดกลางนำหน้า (`.shop-banner.-with-icon`)
+* Components สามารถซ้อนกันได้
+* จำไว้ว่าเราสามารถใช้ extend เพื่อทำให้มันอ่านง่าย

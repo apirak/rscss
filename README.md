@@ -1,6 +1,4 @@
-##### Viewing this from GitHub? Visit the website for the full experience. **[rscss.io →](http://rscss.io)**
-or **[rscss.in.th →](http://rscss.in.th) for Thai language**
-or **[github rscss thai →](http://apirak.github.io/rscss) for now**
+##### เปิดดูจาก GitHub หรือเปล่า? แนะนำให้เข้าไปดูที่เว็บไซต์จะอ่านง่ายกว่า **[rscss.io/th →](http://rscss.io/th)**
 <!-- {h5: style='display:none'} -->
 
 ----
@@ -24,12 +22,10 @@ Reasonable System for CSS Stylesheet Structure คือ<br>
 * "class นี้ยังใช้อยู่มั๊ยเนี่ย?"
 * "ถ้าทำให้ class นี้เป็น `สีเขียว`, มันจะไปกระทบตัวไหนบ้าง?"
 
-**rscss** is an attempt to make sense of all these. It is not a framework. It's simply a set of ideas to guide your process of building maintainable CSS for any modern website or application.
-
 **rscss** พยายามจะแก้ปัญหาเหล่านี้ มันไม่ใช่ framework แต่เป็นแค่แนวทาง ที่นำเสนอรูปแบบการสร้าง CSS ที่สามารถดูแลได้ในระยะยาว สำหรับเว็บไซต์หรือโปรแกรมยุคใหม่
 
 มาเริ่มศึกษาจาก components
-[Continue →](docs/components.md)
+[อ่านต่อ →](docs/components.md)
 <!-- {p:.pull-box} -->
 
 ----

@@ -1,7 +1,7 @@
 # Pitfalls
 
 ## Bleeding through nested components
-Be careful about nested components with elements sharing the same name as elements in its container.
+พึงระวังการใช้ components ซ้อนกัน เพราะอาจจะมี element ที่ใช้ชื่อเดียวกันอยู่ก็ได้
 
 ```html
 <article class='article-link'>
@@ -29,4 +29,4 @@ Be careful about nested components with elements sharing the same name as elemen
 }
 ```
 
-In this case, if `.article-link > .count` did not have the `>` (child) selector, it will also apply to the `.vote-box .count` element. This is one of the reasons why child selectors are preferred.
+ในกรณีนี้ ถ้า `.article-link > .count` ไม่มี `>` (child selctor) ค่านี้จะถูกนำไปใช้กับ element `.vote-box .count`  ด้วย นี่เป็นหนึ่งในเหตุผลที่อยากให้ใส่ child selctor ไว้เสมอ

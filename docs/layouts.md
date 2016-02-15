@@ -42,5 +42,5 @@ If you need to define these, try to define them in whatever context they will be
   ```
 
 แล้วจะกำหนด margins นอก layout ได้อย่างไร? มาลองใช้ Helpers กัน
-[ดูต่อ →](helpers.md)
+[อ่านต่อ →](helpers.md)
 <!-- {p:.pull-box} -->

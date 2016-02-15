@@ -37,5 +37,5 @@ Varants ของ element ก็ใช้รูปแบบเดียวกั
   * มันเป็นรูปแบบเดียวกับ switches ใน UNIX command line (`gcc -O2 -Wall -emit-last`)
 
 เราจะจัดการ element ที่ซับซ้อนอย่างไร? จับมันซ้อนกัน
-[ดูต่อ →](nested-components.md)
+[อ่านต่อ →](nested-components.md)
 <!-- {p:.pull-box} -->

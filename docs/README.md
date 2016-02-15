@@ -12,6 +12,6 @@
   - [โครงสร้าง CSS](css-structure.md)
 - **Notes**
   - [หลุมพราง](pitfalls.md)
-  - [Apprehensions](apprehensions.md)
-  - [Other resources](other-resources.md)
-- [Summary](summary.md)
+  - [สิ่งที่ทำให้หวันไหว](apprehensions.md)
+  - [แหล่งค้นคว้าอื่น ๆ](other-resources.md)
+- [สรุป](summary.md)

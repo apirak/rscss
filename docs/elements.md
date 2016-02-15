@@ -46,5 +46,5 @@ Element ไหนที่อยู่ภายใต้ component ชื่อ�
 ```
 
 Element เดียวกัน ก็ใช่ว่าจะหน้าตาเหมือนกันหมด ให้ใช้ Variants ช่วย
-[ดูต่อ →](variants.md)
+[อ่านต่อ →](variants.md)
 <!-- {p:.pull-box} -->

@@ -1,7 +1,7 @@
-# CSS structure
+# โครงสร้าง CSS
 
-## One component per file
-For each component, place them in their own file.
+## หนึ่ง component ต่อหนึ่งไฟล์
+แต่ละ component ให้วางมันไว้ในไฟล์ของตัวเอง
 
   ```scss
   /* css/components/search-form.scss */
@@ -17,14 +17,15 @@ For each component, place them in their own file.
   ```
 
 ## Use glob matching
-In sass-rails and stylus, this makes including all of them easy:
+ถ้าใช้ sass-rails และ stylus จะทำให้รวบรวมไฟล์ทั้งหมดได้ง่าย
 
   ```scss
   @import 'components/*';
   ```
 
 ## Avoid over-nesting
-Use no more than 1 level of nesting. It's easy to get lost with too much nesting.
+## ระวังการซ้อนกันมากไป
+ไม่ควรให้ซ่อนกันเกิน 1 ชั้น เพื่อป้องกันการซ้อนกันมากเกินไปโดยไม่รู้ตัว
 
   ```scss
   /* ✗ Avoid: 3 levels of nesting */
