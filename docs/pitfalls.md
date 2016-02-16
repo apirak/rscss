@@ -5,7 +5,7 @@
 
 ```html
 <article class='article-link'>
- <div class='vote-box'>
+  <div class='vote-box'>
     <button class='up'></button>
     <button class='down'></button>
     <span class='count'>4</span>
@@ -29,4 +29,4 @@
 }
 ```
 
-ในกรณีนี้ ถ้า `.article-link > .count` ไม่มี `>` (child selctor) ค่านี้จะถูกนำไปใช้กับ element `.vote-box .count`  ด้วย นี่เป็นหนึ่งในเหตุผลที่อยากให้ใส่ child selctor ไว้เสมอ
+ในกรณีนี้ ถ้า `.article-link > .count` ไม่มี `>` (child selector) ค่านี้จะถูกนำไปใช้กับ element `.vote-box .count`  ด้วย นี่เป็นหนึ่งในเหตุผลที่อยากให้ใส่ child selector ไว้เสมอ
