@@ -27,7 +27,7 @@
 <h2 id="bleeding-through-nested-components">Bleeding through nested components</h2>
 <p>&#xE1E;&#xE36;&#xE07;&#xE23;&#xE30;&#xE27;&#xE31;&#xE07;&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49; components &#xE0B;&#xE49;&#xE2D;&#xE19;&#xE01;&#xE31;&#xE19; &#xE40;&#xE1E;&#xE23;&#xE32;&#xE30;&#xE2D;&#xE32;&#xE08;&#xE08;&#xE30;&#xE21;&#xE35; element &#xE17;&#xE35;&#xE48;&#xE43;&#xE0A;&#xE49;&#xE0A;&#xE37;&#xE48;&#xE2D;&#xE40;&#xE14;&#xE35;&#xE22;&#xE27;&#xE01;&#xE31;&#xE19;&#xE2D;&#xE22;&#xE39;&#xE48;&#xE01;&#xE47;&#xE44;&#xE14;&#xE49;</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="pl-ent">article</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;article-link&apos;</span>&gt;</span>
- <span class="hljs-tag">&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;vote-box&apos;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;vote-box&apos;</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="pl-ent">button</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;up&apos;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="pl-ent">button</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="pl-ent">button</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;down&apos;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="pl-ent">button</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="pl-ent">span</span> <span class="pl-e">class</span>=<span class="pl-s">&apos;count&apos;</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="pl-ent">span</span>&gt;</span>
@@ -48,7 +48,7 @@
   &gt; <span class="hljs-class">.count</span> { <span class="pl-c">/* ... */</span> }
 }
 </code></pre>
-<p>&#xE43;&#xE19;&#xE01;&#xE23;&#xE13;&#xE35;&#xE19;&#xE35;&#xE49; &#xE16;&#xE49;&#xE32; <code>.article-link &gt; .count</code> &#xE44;&#xE21;&#xE48;&#xE21;&#xE35; <code>&gt;</code> (child selctor) &#xE04;&#xE48;&#xE32;&#xE19;&#xE35;&#xE49;&#xE08;&#xE30;&#xE16;&#xE39;&#xE01;&#xE19;&#xE33;&#xE44;&#xE1B;&#xE43;&#xE0A;&#xE49;&#xE01;&#xE31;&#xE1A; element <code>.vote-box .count</code>  &#xE14;&#xE49;&#xE27;&#xE22; &#xE19;&#xE35;&#xE48;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE2B;&#xE19;&#xE36;&#xE48;&#xE07;&#xE43;&#xE19;&#xE40;&#xE2B;&#xE15;&#xE38;&#xE1C;&#xE25;&#xE17;&#xE35;&#xE48;&#xE2D;&#xE22;&#xE32;&#xE01;&#xE43;&#xE2B;&#xE49;&#xE43;&#xE2A;&#xE48; child selctor &#xE44;&#xE27;&#xE49;&#xE40;&#xE2A;&#xE21;&#xE2D;</p>
+<p>&#xE43;&#xE19;&#xE01;&#xE23;&#xE13;&#xE35;&#xE19;&#xE35;&#xE49; &#xE16;&#xE49;&#xE32; <code>.article-link &gt; .count</code> &#xE44;&#xE21;&#xE48;&#xE21;&#xE35; <code>&gt;</code> (child selector) &#xE04;&#xE48;&#xE32;&#xE19;&#xE35;&#xE49;&#xE08;&#xE30;&#xE16;&#xE39;&#xE01;&#xE19;&#xE33;&#xE44;&#xE1B;&#xE43;&#xE0A;&#xE49;&#xE01;&#xE31;&#xE1A; element <code>.vote-box .count</code>  &#xE14;&#xE49;&#xE27;&#xE22; &#xE19;&#xE35;&#xE48;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE2B;&#xE19;&#xE36;&#xE48;&#xE07;&#xE43;&#xE19;&#xE40;&#xE2B;&#xE15;&#xE38;&#xE1C;&#xE25;&#xE17;&#xE35;&#xE48;&#xE2D;&#xE22;&#xE32;&#xE01;&#xE43;&#xE2B;&#xE49;&#xE43;&#xE2A;&#xE48; child selector &#xE44;&#xE27;&#xE49;&#xE40;&#xE2A;&#xE21;&#xE2D;</p>
 
         </div>
         <div class="footer-nav">
