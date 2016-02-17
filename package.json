@@ -1,7 +1,7 @@
 {
   "name": "rscss",
   "version": "1.0.0",
-  "description": "rscss thai translate from rscss.io",
+  "description": "rscss Thai language translate from rscss.io",
   "main": "index.js",
   "directories": {
     "doc": "docs"
