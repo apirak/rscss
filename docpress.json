@@ -1,7 +1,8 @@
 {
   "github": "apirak/rscss",
   "css": [
-    "http://ricostacruz.com/docpress-rsc/style.css"
+    "http://ricostacruz.com/docpress-rsc/style.css",
+    "docs/extra.css"
   ],
   "markdown": {
     "plugins": {
