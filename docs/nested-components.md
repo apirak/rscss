@@ -69,7 +69,6 @@
 }
 ```
 
-What about repeating elements like lists? Learn about Layouts.
 แล้ว element ที่ซ้ำกันเยอะ ๆ เช่นการสร้างรายการละ? ลองศึกษาการเขียน Layouts
 
 [อ่านต่อ →](layouts.md)
