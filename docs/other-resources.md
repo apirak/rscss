@@ -1,4 +1,4 @@
-# แหลงศึกษาที่อื่น ๆ
+# แหล่งศึกษาที่อื่น ๆ
 
  * [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss#49) ("Inverted Triangle CSS") เป็นแนวทางการสร้าง component ที่ดีสำหรับใช้ใน rscss structure.
  * [rsjs](http://ricostacruz.com/rsjs/) ("Reasonable Standard of JavaScript Structure") กำลังพัฒนาเอกสารในการออกแบบโครงสร้าง JavaScript สำหรับเว็บทั่วไป
