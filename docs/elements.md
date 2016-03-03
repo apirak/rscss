@@ -1,6 +1,6 @@
 # Elements
 
-Elements คือของที่อยู่ข้างใน component
+Elements คือสิ่งที่อยู่ข้างใน component
 
 ![](images/component-elements.png)
 
