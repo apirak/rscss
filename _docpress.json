@@ -192,7 +192,7 @@
             ]
           },
           {
-            "title": "สิ่งที่ทำให้หวันไหว",
+            "title": "สิ่งที่ทำให้หวั่นไหว",
             "source": "docs/apprehensions.md",
             "url": "apprehensions.html",
             "slug": "apprehensions"
@@ -403,7 +403,7 @@
     },
     "apprehensions.html": {
       "source": "docs/apprehensions.md",
-      "title": "สิ่งที่ทำให้หวันไหว",
+      "title": "สิ่งที่ทำให้หวั่นไหว",
       "slug": "apprehensions"
     },
     "other-resources.html": {
