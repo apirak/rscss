@@ -32,14 +32,13 @@ Reasonable System for CSS Stylesheet Structure คือ<br>
 <!-- {hr: style='display:none'} -->
 
 **rscss** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
-ผู้แต่ง และผู้ดูแลคือ Rico Sta โดยมีผู้ร่วมสนับสนุน ([list][contributors])
-แปลโดย Apriak Panatkool
+ผู้แต่ง และผู้ดูแลคือ Rico Sta ดูแลการแปลเป็นไทยโดย อภิรักษ์ ปนาทกูล<br>
+โดยมีผู้ร่วมสนับสนุน ([list][contributors])
 <!-- {p: style='display:none'} -->
-
 > [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
 > GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;
 > Twitter [@rstacruz](https://twitter.com/rstacruz)
 <!-- {blockquote: style='display:none'} -->
 
 [MIT]: http://mit-license.org/
-[contributors]: http://github.com/rstacruz/rscss/contributors
+[contributors]: https://github.com/apirak/rscss/contributors
